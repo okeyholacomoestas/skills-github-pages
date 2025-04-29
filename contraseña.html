@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contraseña</title>
+    <link rel="stylesheet" href="botones.css">
+</head>
+<body style="background-color: rgb(248, 162, 215);">.
+    <center> 
+    <h2>Ingrese la contraseña</h2>
+      
+    <input type="password" id="password" placeholder="Contraseña">
+    <button onclick="verificarPassword()">Ingresar</button>
+    <script>
+        function verificarPassword() {
+            var password = document.getElementById("password").value;
+            if (password === "1234") {
+                window.location.href = "Menu.html";
+            }
+        }
+    </script>
+    </center>
+    
+</body>
+</html>
